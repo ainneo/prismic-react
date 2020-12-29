@@ -14,6 +14,7 @@ const Page = ({ match }) => {
   useEffect(() => {
     const fetchData = async () => {
       // We are using the function to get a document by its UID
+      // in this case the UID is test, in which we created in the repo
       const result = await client.getByUID('page', uid)
 
       if (result) {

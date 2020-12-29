@@ -14,14 +14,14 @@ import { Help, Preview, NotFound, Page } from './pages'
  * Main application componenet
  */
 const App = (props) => {
-  // const repoNameArray = /([^/]+)\.cdn.prismic\.io\/api/.exec(apiEndpoint)
-  // const repoName = repoNameArray[1]
-
+  //***This is for the preview options/not sure how they work yet.... */
+  const repoNameArray = /([^/]+)\.cdn.prismic\.io\/api/.exec(apiEndpoint)
+  const repoName = repoNameArray[1]
   return (
     <Fragment>
       <Helmet>
-        {/* <script async defer src={`//static.cdn.prismic.io/prismic.js?repo=${repoName}&new=true`} /> */}
-        <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=prismic-sucks"></script>
+      {/* ***This is for the preview options/not sure how they work yet.... */}
+      <script async defer src={`//static.cdn.prismic.io/prismic.js?repo=${repoName}&new=true`} />
       </Helmet>
       <BrowserRouter>
         <Switch>
