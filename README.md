@@ -33,12 +33,15 @@ This project is ready for deployment using [Netlify](https://www.netlify.com), t
 
 You can find out more about how to use React.js with Prismic from [our React documentation](https://prismic.io/docs/reactjs/getting-started/getting-started-from-scratch).
 
-## Licence
 
-This software is licensed under the Apache 2 license, quoted below.
+##  Hooking the backend to the frontend:
+1. In the prismic-config file add your root end point URL to the apiEndpoint. 
+example: ```export const apiEndpoint = 'https://prismic.cdn.prismic.io/api/v2'```
 
-Copyright 2019 Prismic (https://prismic.io).
+2. Make sure to import (require) prismic scripts:  ```import { client, linkResolver } from '../prismic-configuration''``` on every component that will be linked to your custom types, and call the page document by it's UID... UID is how the pages are queried from your backend to the frontend.
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this project except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
+For better examples see: 
+- prismic-config file: https://github.com/ainneo/prismic-react/blob/main/src/prismic-configuration.js
+- pages component file: https://github.com/ainneo/prismic-react/blob/main/src/pages/Page.js
+- custom types (json is automatically generated in prismic dashboard): https://github.com/ainneo/prismic-react/tree/main/custom_types
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
