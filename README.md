@@ -1,5 +1,3 @@
-[![Dependency Status](https://david-dm.org/prismicio/reactjs-starter.svg)](https://david-dm.org/prismicio/reactjs-starter)
-
 # Prismic React Starter
 This project has been created with [`create-react-app`](https://github.com/facebookincubator/create-react-app). We added a zest of [prismic](https://github.com/prismicio/javascript-kit) inside it. It serves as a boilerplate React+Prismic application that will serves as a quick guide to get your own applications off the ground
 
@@ -38,9 +36,9 @@ You can find out more about how to use React.js with Prismic from [our React doc
 1. In the prismic-config file add your root end point URL to the apiEndpoint. 
 example: ```export const apiEndpoint = 'https://prismic.cdn.prismic.io/api/v2'```
 
-2. Make sure to import (require) prismic scripts:  ```import { client, linkResolver } from '../prismic-configuration''``` on every component that will be linked to your custom types, and call the page document by it's UID... UID is how the pages are queried from your backend to the frontend.
+2. Make sure to import (require) prismic scripts:```import { client, linkResolver } from '../prismic-configuration''``` on every component that will be linked to your custom types, and call the page document by it's UID... UID is how the pages are queried from your backend to the frontend.
 
-For better examples see: 
+For examples see links below: 
 - prismic-config file: https://github.com/ainneo/prismic-react/blob/main/src/prismic-configuration.js
 - pages component file: https://github.com/ainneo/prismic-react/blob/main/src/pages/Page.js
 - custom types (json is automatically generated in prismic dashboard): https://github.com/ainneo/prismic-react/tree/main/custom_types
