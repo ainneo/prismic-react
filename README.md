@@ -43,3 +43,7 @@ Examples see links below:
 - pages component file: https://github.com/ainneo/prismic-react/blob/main/src/pages/Page.js
 - custom types (json is automatically generated in prismic dashboard): https://github.com/ainneo/prismic-react/tree/main/custom_types
 
+
+## MISC NOTES:
+Install CLI via terminal - must have a prismic account, you will input account information when creating a new project, this links the local project to your prismic dashboard.... 1. install CLI, 2. create new project  3. input Prismic account details  4. Now your local project is linked and will appear as a repo on your Prismic dashboard.
+
