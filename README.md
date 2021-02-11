@@ -45,5 +45,8 @@ Examples see links below:
 
 
 ## MISC NOTES:
-Install CLI via terminal - must have a prismic account, you will input account information when creating a new project, this links the local project to your prismic dashboard.... 1. install CLI, 2. create new project  3. input Prismic account details  4. Now your local project is linked and will appear as a repo on your Prismic dashboard.
-
+Install CLI via terminal - must have a prismic account, you will input account information when creating a new project, this links the local project to your prismic dashboard.... 
+1. install CLI 
+2. create new project  
+3. input Prismic account details 
+4. Now your local project is linked and will appear as a repo on your Prismic dashboard
