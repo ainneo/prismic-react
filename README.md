@@ -47,7 +47,7 @@ See example links below:
 - custom types (json is automatically generated in prismic dashboard): https://github.com/ainneo/prismic-react/tree/main/custom_types
 
 
-## MISC NOTES:
+## Misc notes:
 Install CLI via terminal - must have a prismic account, you will input account information when creating a new project, this links the local project to your prismic dashboard.... 
 1. install CLI 
 2. create new project  
