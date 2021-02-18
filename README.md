@@ -1,4 +1,4 @@
-# DESCRIPTION
+# Description
 This is a full stack app. The frontend is built with React.js and the backend/cms is Prismic.
 
 ## Prismic React Starter
