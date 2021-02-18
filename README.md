@@ -41,7 +41,7 @@ example: ```export const apiEndpoint = 'https://prismic.cdn.prismic.io/api/v2'``
 
 2. Make sure to import (require) prismic scripts:```import { client, linkResolver } from '../prismic-configuration''``` on every component that will be linked to your custom types, and call the page document by it's UID... UID is how the pages are queried from backend to the frontend.
 
-Examples see links below: 
+See example links below: 
 - prismic-config file: https://github.com/ainneo/prismic-react/blob/main/src/prismic-configuration.js
 - pages component file: https://github.com/ainneo/prismic-react/blob/main/src/pages/Page.js
 - custom types (json is automatically generated in prismic dashboard): https://github.com/ainneo/prismic-react/tree/main/custom_types
