@@ -1,4 +1,7 @@
-# Prismic React Starter
+# DESCRIPTION
+This is a full stack app. The frontend is built with React.js and the backend/cms is Prismic.
+
+## Prismic React Starter
 This project has been created with [`create-react-app`](https://github.com/facebookincubator/create-react-app). We added a zest of [prismic](https://github.com/prismicio/javascript-kit) inside it. It serves as a boilerplate React+Prismic application that will serves as a quick guide to get your own applications off the ground
 
 ## Quick bootstrap
